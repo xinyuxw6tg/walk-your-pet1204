@@ -62,7 +62,7 @@ button {
     left: 50;
     top: 70;
     width: 20%;
-    height: 17vh;
+    height: 30vh;
     background-color: #4050a6;
     border-right: 10px solid #f56541;
     z-index: 1;
@@ -81,8 +81,8 @@ button {
 #map-sidebar {
     position: absolute;
     right: 50;
-    top:600;
-    height: 37vh;
+    bottom: :0;
+    height: 50vh;
     background:#4050a6;
     padding: 15px;
     z-index: 1;
