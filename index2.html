@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="custom.css">
+
+   <!--audio-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+ 
+    <script type="text/javascript">
+        $(function () {
+            $("button").click(function () {
+                /**H5 音频 DOM 对象，不是 JQuery对象*/
+                var audioDom = document.getElementById("audioHint");
+                /**currentTime：当前音频/视频的播放位置（以秒计）
+                 * duration：当前音频/视频的长度（以秒计)*/
+                var currentTime = audioDom.currentTime
+                var duration = audioDom.duration;
+                /**如果当前音视频未开始播放，或者播放结束，则让它播放*/
+                if (currentTime <= 0 || currentTime == duration) {
+                    /**播放音视频*/
+                    audioDom.play();
+                }
+            });
+        });
+    </script>
+<!--/audio-->
+
+
+  <title>Walk Your Pets home page</title>
+</head>
+<body>
+
+ 
+
+  <main role="main" class="container">
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+      <div align="center" class="main">
+
+        <img src="Logo.png"  style=""/>
+        <br>
+
+     <br>
+        <p class="lead">Find Best Routs and Friends in Cvill.</p>
+         <p class="lead">
+          
+          <a  href="file:///C:\Users\WXY\Desktop\walking your pets\interactivity\Map.html" class="btn btn-lg btn-secondary" >  ·Get Start!·  </a>
+           <br>
+            <br>
+            <div id="audio">
+	<audio id="audiotag" src="9130_02.wav" autobuffer="autobuffer"></audio>
+</div>
+<!--/embedded audio-->
+
+<!--button/link-->
+<audio src="9130_02.wav" id="audioHint">您的浏览器不支持 audio</audio>
+<button class="btn btn-lg btn-warning"><img height="91" width="69" src="Paw.png"  style=""/></button>
+<!--/button/link-->
+
+           <a  href="file:///C:\Users\WXY\Desktop\walking your pets\interactivity\Project introduction.html"  class="btn btn-lg btn-secondary">Learn more</a>
+
+        </p>
+      </div>
+      
+
+
+    </main>
+
+ 
+<body>
+
+
+</body>
+</html>

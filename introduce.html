@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://getbootstrap.com/docs/4.0/examples/carousel/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Walking your pet</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./index_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./index_files/carousel.css" rel="stylesheet">
+    <!--audio-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+ 
+    <script type="text/javascript">
+        $(function () {
+            $("button").click(function () {
+                /**H5 音频 DOM 对象，不是 JQuery对象*/
+                var audioDom = document.getElementById("audioHint");
+                /**currentTime：当前音频/视频的播放位置（以秒计）
+                 * duration：当前音频/视频的长度（以秒计)*/
+                var currentTime = audioDom.currentTime
+                var duration = audioDom.duration;
+                /**如果当前音视频未开始播放，或者播放结束，则让它播放*/
+                if (currentTime <= 0 || currentTime == duration) {
+                    /**播放音视频*/
+                    audioDom.play();
+                }
+            });
+        });
+    </script>
+<!--/audio-->
+  </head>
+  <body>
+
+    
+
+    <main role="main">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          
+        </ol>
+      
+          <div class="carousel-item active">
+            
+            <div class="container">
+              <div class="carousel-caption">
+
+                <img src="Logo.png"  style=""/>
+              
+                
+                <br>
+                <br>
+                <br>
+
+
+                <h5 align="left">Charlottesville is a town based on University of Virginia, so the population of this city is kind of mobile. Every year, new students or teachers come to this city. You may be a little confused when facing a strange city. If you come here with your buddies, you can find Xia Village's most popular dog walking place on this website. Avoid traffic and keep your dogs safe. If you are a newbie who is just starting to raise dogs, meeting some friends who are experienced in raising dogs through popular dog walks may be of great help to you. Have fun with your buddies!</h5>
+                <br>
+                <br>
+
+                <h5 align="left">Park information are from https://www.charlottesville.org/</h5>
+                <br>
+
+
+                <p><a class="btn btn-lg btn-secondary" href="index.html" role="button">-Go Back-</a></p>
+                <!--button/link-->
+
+              </div>
+
+            </div>
+
+          </div>
+          
+        </div>
+        
+      </div>
+
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+     
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="https://getbootstrap.com/docs/4.0/examples/carousel/#">Back to top</a></p>
+        <p>© 2019-2020 Company, Inc. · <a href="https://getbootstrap.com/docs/4.0/examples/carousel/#">Privacy</a> · <a href="https://getbootstrap.com/docs/4.0/examples/carousel/#">Terms</a></p>
+      </footer>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./index_files/jquery-3.2.1.slim.min.js.下载" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./index_files/popper.min.js.下载"></script>
+    <script src="./index_files/bootstrap.min.js.下载"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="./index_files/holder.min.js.下载"></script>
+  
+
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg></body></html>
